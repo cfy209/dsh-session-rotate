@@ -1,0 +1,3 @@
+# session-rotate 持久插件装配（会话自动轮换，省 token）
+- id: session-rotate
+  name: '@dsh-local/session-rotate'
