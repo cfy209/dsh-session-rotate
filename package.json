@@ -1,0 +1,20 @@
+{
+  "name": "@dsh-local/session-rotate",
+  "version": "1.0.0",
+  "description": "会话自动轮换:上下文超阈值自动生成交接清单+新建会话+注入清单+归档旧会话(省token)",
+  "type": "module",
+  "main": "./lib/index.js",
+  "files": [
+    "lib/index.js",
+    "cordis.patch.yml"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "peerDependencies": {
+    "cordis": ">=4.0.0-rc <5"
+  },
+  "license": "MIT"
+}
